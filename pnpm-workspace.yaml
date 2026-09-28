@@ -38,6 +38,8 @@ catalogs:
     vue: ^3.5.30
   icons:
     '@iconify-json/carbon': ^1.2.19
+    '@iconify-json/lucide': ^1.2.0
+    '@iconify-json/simple-icons': ^1.2.0
     '@iconify-json/twemoji': ^1.2.5
 onlyBuiltDependencies:
   - '@parcel/watcher'

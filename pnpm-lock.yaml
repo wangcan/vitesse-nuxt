@@ -70,6 +70,12 @@ catalogs:
     '@iconify-json/carbon':
       specifier: ^1.2.19
       version: 1.2.19
+    '@iconify-json/lucide':
+      specifier: ^1.2.0
+      version: 1.2.137
+    '@iconify-json/simple-icons':
+      specifier: ^1.2.0
+      version: 1.2.97
     '@iconify-json/twemoji':
       specifier: ^1.2.5
       version: 1.2.5
@@ -100,6 +106,12 @@ importers:
       '@iconify-json/carbon':
         specifier: catalog:icons
         version: 1.2.19
+      '@iconify-json/lucide':
+        specifier: catalog:icons
+        version: 1.2.137
+      '@iconify-json/simple-icons':
+        specifier: catalog:icons
+        version: 1.2.97
       '@iconify-json/twemoji':
         specifier: catalog:icons
         version: 1.2.5
@@ -1061,6 +1073,12 @@ packages:
 
   '@iconify-json/carbon@1.2.19':
     resolution: {integrity: sha512-l89XjtEeSA5fxlxPTNSU9AA+rxaz/Dn0X/ux0/3awR+tAayY8iJqWQu3AKxhchfx3LB/fX1Nv3ZppZzrBAt7aA==}
+
+  '@iconify-json/lucide@1.2.137':
+    resolution: {integrity: sha512-uKz1+tFbv1RFX/mJQNksdnyKJijNfRGSNnxfiyKtr+dLNfA3ERph+IgpXClKGOlV/5GsZwLv2jgJXQ/bjF/JAg==}
+
+  '@iconify-json/simple-icons@1.2.97':
+    resolution: {integrity: sha512-Z6PmM6jvWVU7rmLzqbxCLJA7SeqCnK6lMHXtjyzHPLZebwuoojBEcHHycppahDzEeN9xujRkrV5J8QpOhMyNrg==}
 
   '@iconify-json/twemoji@1.2.5':
     resolution: {integrity: sha512-uKpuIEV0v6K5BW3Mjdyl+XKFVAbbcPxAgifKvEMtZoUZB5+YiY5zaMm2uNNCxyXzAWU9yNLlj41WU6/mvgALsw==}
@@ -7338,6 +7356,14 @@ snapshots:
   '@humanwhocodes/retry@0.4.2': {}
 
   '@iconify-json/carbon@1.2.19':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/lucide@1.2.137':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/simple-icons@1.2.97':
     dependencies:
       '@iconify/types': 2.0.0
 

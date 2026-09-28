@@ -10,3 +10,4 @@
 1. 分析介绍当前项目的技术栈和功能。结果保存在 .requirements/info/info.md
 2. 分析一下，后续再这个框架项目上做二次开发应该遵循的原则和注意事项，以及开发过程中，打包、热部署等相关的命令操作文档。结果保存在 .requirements/info/dev-deploy.md
 
+1. 将模块 https://github.com/nuxt/content 集成到当前项目，并生成几个集成后的demo页面
