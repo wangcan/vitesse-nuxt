@@ -7,3 +7,8 @@ dist
 .env
 .idea/
 public/assets/fonts
+
+# Claude 本地个人覆盖配置与运行时文件（不提交）
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/scheduled_tasks.json

@@ -1,0 +1,32 @@
+需求3:
+分析一下CLAUDE.md文件 介绍一下文件内容和所起到的作用，结果存到文件.requirements/ai/intro-CLAUDE.md
+分析一下.claude/.settings.json文件 介绍一下文件内容和所起到的作用，结果存到文件.requirements/ai/intro-settings.md
+分析一下.claude/agents/目录下的文件 介绍一下各文件内容和所起到的作用，结果存到文件.requirements/ai/intro-agents.md
+分析一下.claude/commands/目录下的文件 介绍一下各文件内容和所起到的作用，结果存到文件.requirements/ai/intro-commands.md
+分析一下.claude/rules/目录下的文件 介绍一下各文件内容和所起到的作用，结果存到文件.requirements/ai/intro-rules.md
+分析一下.claude/skills/目录下的文件 介绍一下各文件内容和所起到的作用，结果存到文件.requirements/ai/intro-skills.md
+分析一下.claude/hooks/目录下的文件 介绍一下各文件内容和所起到的作用，结果存到文件.requirements/ai/intro-hooks.md
+
+忽略以下全部需求
+
+需求1:
+
+1.后续要在当前这个vitesse-nuxt框架基础上，开发和扩展应用，包括但不限于图片展示浏览模块、古籍或小说阅读模块、简易百科页面、各类表格、各类图表等等；
+2.网站同时支持PC和移动端；
+3.执行pnpm typecheck、pnpm lint 等相关命令时，忽略 CLAUDE.md、.claude目录下所有文件、.requirements目录下所有文件；
+
+基于上述项目目标，结合当前项目的技术栈，按下面提供的目录结构，完善系统的Claude相关设置，生成若干agents、skills、rules、commands、hooks相关的文件。处理结果的描述信息存到文件：.requirements/ai/init-claude.md
+
+├── CLAUDE.md                     # 项目核心指令
+├── .claude/                      # 项目级配置主目录
+│   ├── settings.json             # 项目基础设置（提交到 Git）
+│   ├── settings.local.json       # 本地个人覆盖配置（Git 忽略）
+│   ├── agents/                   # 自定义子代理
+│   ├── skills/                   # 自定义技能
+│   ├── rules/                    # 规则文件
+│   ├── commands/                 # 自定义斜杠命令
+
+
+需求2:
+结合项目当前的技术栈，为项目配置几个mcp，介绍一下各个mcp的特点和所起到的作用，结果存到文件.requirements/ai/mcp.md
+
