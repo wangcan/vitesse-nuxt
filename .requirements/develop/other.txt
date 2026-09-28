@@ -1,0 +1,1 @@
+将模块 https://github.com/nuxt/content 集成到当前项目，并生成几个集成后的demo页面

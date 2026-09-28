@@ -37,6 +37,11 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
 
+  // 开发服务器配置
+  // Nuxt 4 移除了 devServer.host/port，改用环境变量 NUXT_HOST / NUXT_PORT
+  // 启动外部访问：NUXT_HOST=0.0.0.0 NUXT_PORT=3000 pnpm dev
+  devServer: {},
+
   future: {
     compatibilityVersion: 4,
   },
@@ -61,6 +66,17 @@ export default defineNuxtConfig({
       crawlLinks: false,
       routes: ['/'],
       ignore: ['/hi'],
+    },
+  },
+
+  // Vite 配置 - 使用最宽松设置
+  // Nuxt 4 下 server.host/port 由 devServer 统一管理（用 NUXT_HOST/NUXT_PORT 环境变量）
+  vite: {
+    server: {
+      allowedHosts: true, // 允许所有 host
+      hmr: {
+        clientPort: 3000,
+      },
     },
   },
 

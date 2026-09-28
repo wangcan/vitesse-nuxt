@@ -5,6 +5,9 @@ autoInstallPeers: false
 trustPolicy: no-downgrade
 
 packages: []
+catalog:
+  vxe-pc-ui: ^4.18.19
+  vxe-table: ^4.22.2
 catalogs:
   build:
     '@nuxt/devtools': ^3.2.4

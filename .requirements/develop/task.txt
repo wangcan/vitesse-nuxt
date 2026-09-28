@@ -1,0 +1,7 @@
+项目底层源码基于：https://github.com/antfu/vitesse-nuxt；
+后续扩展的功能，同时支持PC和移动端；
+
+需求1：
+1. 把 https://github.com/x-extends/vxe-table  集成到当前项目，生成若干示例页面；
+2. 将集成 vxe table 的工作总结 写入到文件 .requirements/info/vxe-table.md
+1. 将模块 https://github.com/nuxt/content 集成到当前项目，并生成几个集成后的demo页面

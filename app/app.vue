@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { appName } from '~/constants'
+import '~/assets/css/vxe-dark.css'
 
 useHead({
   title: appName,

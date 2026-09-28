@@ -1,0 +1,47 @@
+/**
+ * vxe-table / vxe-pc-ui 暗色模式适配
+ *
+ * vxe 全套组件由 --vxe-ui-* CSS 变量驱动，未内置 dark 主题类。
+ * 项目用 @nuxtjs/color-mode（classSuffix: ''），html.dark 触发暗色。
+ * 这里在 html.dark 下覆盖关键变量，使表格与项目暗色风格一致。
+ */
+html.dark {
+  /* 基础字体与布局 */
+  --vxe-ui-font-color: #e5e7eb;
+  --vxe-ui-font-darken-color: #f3f4f6;
+  --vxe-ui-font-lighten-color: #9ca3af;
+  --vxe-ui-font-tinge-color: #6b7280;
+  --vxe-ui-font-disabled-color: #4b5563;
+  --vxe-ui-font-primary-color: #14b8a6;
+  --vxe-ui-layout-background-color: #1f2937;
+
+  /* 通用边框 / 悬浮 / 弹层 */
+  --vxe-ui-base-hover-background-color: #374151;
+  --vxe-ui-base-active-background-color: #2d3a4e;
+  --vxe-ui-base-popup-border-color: #374151;
+  --vxe-ui-base-popup-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.55);
+  --vxe-ui-input-border-color: #374151;
+  --vxe-ui-input-disabled-background-color: #1f2937;
+  --vxe-ui-input-disabled-color: #4b5563;
+  --vxe-ui-input-placeholder-color: #6b7280;
+  --vxe-ui-loading-background-color: rgba(31, 41, 55, 0.85);
+
+  /* 表格：边框 / 表头 / 表尾 / 行 */
+  --vxe-ui-table-border-color: #374151;
+  --vxe-ui-table-header-background-color: #1f2937;
+  --vxe-ui-table-header-font-color: #e5e7eb;
+  --vxe-ui-table-footer-background-color: #1f2937;
+  --vxe-ui-table-footer-font-color: #e5e7eb;
+  --vxe-ui-table-row-hover-background-color: #2d3a4e;
+  --vxe-ui-table-row-hover-striped-background-color: #324056;
+  --vxe-ui-table-row-current-background-color: #134e4a;
+  --vxe-ui-table-row-hover-current-background-color: #115e59;
+  --vxe-ui-table-row-striped-background-color: #1b2433;
+  --vxe-ui-table-column-hover-background-color: #2d3a4e;
+  --vxe-ui-table-column-current-background-color: #134e4a;
+  --vxe-ui-table-column-hover-current-background-color: #115e59;
+  --vxe-ui-table-row-checkbox-checked-background-color: #14b8a6;
+  --vxe-ui-table-row-radio-checked-background-color: #14b8a6;
+  --vxe-ui-table-cell-active-area-background-color: rgba(20, 184, 166, 0.15);
+  --vxe-ui-table-cell-active-area-border-color: #14b8a6;
+}
